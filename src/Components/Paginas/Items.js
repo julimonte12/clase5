@@ -3,7 +3,7 @@ import React from 'react'
 const Items = () => {
     return (
         <div>
-               <h1>Esta es la pagina de items</h1>
+               <h4>Esta es la pagina de items</h4>
         </div>
     )
 }

@@ -21,9 +21,16 @@ const navBar = () => {
                         </div>
                     </div>
                 </div>
+
+                <Link to='/'>
+                    <img src='/Carrito.png' width='40' className= 'd-flex p-2'/>
+                </Link>
             </nav>
         </div>
+        
     )
+    
 }
+
 
 export default navBar
