@@ -5,7 +5,7 @@ import NavBar from './Components/Navegacion/NavBar';
 import Inicio from './Components/Paginas/Inicio';
 import Items from './Components/Paginas/Items';
 import ItemListContainer from './Components/Paginas/ItemListContainer';
-
+import ItemCount from './Components/ItemCount';
 
 function App() {
   return (
@@ -16,8 +16,7 @@ function App() {
         <Route path='/' exact component={Inicio}/> 
         <Route path='/Items' component={Items}/>
         <Route path='/ItemListContainer' component={ItemListContainer}/>        
-        
-       
+        <Route path='/ItemCount' component={ItemCount}/>        
       </Switch>
     </Router>
     </div>

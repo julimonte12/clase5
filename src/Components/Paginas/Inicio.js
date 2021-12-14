@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemCount from '../ItemCount'
 
 const inicio = () => {
     return (
@@ -7,5 +8,7 @@ const inicio = () => {
         </div>
     )
 }
+
+
 
 export default inicio
